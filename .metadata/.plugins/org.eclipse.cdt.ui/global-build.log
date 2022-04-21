@@ -1,0 +1,8 @@
+14:49:38 **** Clean-only build of configuration Debug for project tp_laboratorio ****
+rm -rf src/funcione.o src/funcione.d src/datos.o tp_laboratorio.exe src/datos.d src/tp_laboratorio.d src/tp_laboratorio.o 
+14:49:38 **** Rebuild of configuration Debug for project tp_laboratorio ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\datos.o" "..\\src\\datos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcione.o" "..\\src\\funcione.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp_laboratorio.o" "..\\src\\tp_laboratorio.c" 
+gcc -o tp_laboratorio.exe "src\\datos.o" "src\\funcione.o" "src\\tp_laboratorio.o" 

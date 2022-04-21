@@ -1,0 +1,13 @@
+/*
+ * funcione.h
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: fatim
+ */
+
+#ifndef FUNCIONE_H_
+#define FUNCIONE_H_
+
+int precio(int latam);
+#endif /* FUNCIONE_H_ */
+

@@ -1,0 +1,86 @@
+/*
+ ============================================================================
+ Name        : tp_laboratorio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "funcione.h"
+
+
+
+int main(void) {
+	setbuf(stdout,NULL);
+	int km;
+	int opcion;
+
+	float latam;
+	float descuentoLatam;
+	float interesesLatam;
+	float bitcoinLatam;
+	float porKmLatam;
+
+	float aerolineas;
+	float descuentoAerolineas;
+	float interesesAerolineas;
+	float bitcoinAerolineas;
+	float porKmAerolineas;
+	float diferencia;
+
+
+	latam = 159339;
+	km = 7090;
+	aerolineas = 162965;
+
+	printf("\n1- Ingresar Kilómetros. \n"
+	        "2- Ingresar Precio de Vuelos. \n"
+	        "3- Calcular todos los costos. \n"
+	        "4- Informar Resultados. \n"
+	        "5- Carga forzada de datos. \n"
+	        "6- Salir. \n"
+	        "\n Ingrese la opción deseada:");
+	scanf("%d",&opcion);
+	switch(opcion)
+	{
+	case 1:
+		printf("cantidad de km\n");
+		scanf("%d",&km);
+		break;
+	case 2:
+		printf("precio de vuelo a latam:");
+		scanf("%d",&latam);
+		printf("precio de vuelo en aerolinea");
+		scanf("%d",&aerolineas);
+		break;
+	case 3:
+
+		descuentoLatam(latam);
+		interesesLatam(latam);
+		bitcoinLatam(latam);
+		porKmLatam = porKmLatam(latam,km);
+
+		descuentoAerolineas(aerolineas);
+		interesesAerolineas(aerolineas);
+		bitcoinAerolineas(aerolineas);
+		porKmAerolineas(aerolineas,km);
+
+		diferencia(latam,aerolineas);
+		break;
+	case 4:
+//		funcionDos(latam,aerolineas,km,descuentoLatam,interesesLatam,bitcoinLatam,porKmLatam,descuentoAerolineas,interesesAerolineas,bitcoinAerolineas,porKmAerolineas,diferencia);
+
+		break;
+	case 5:
+		break;
+	case 6:
+		break;
+	}
+
+
+	return 0;
+}

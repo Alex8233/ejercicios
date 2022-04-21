@@ -1,0 +1,56 @@
+/*
+ * funcione.h
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: fatim
+ */
+
+#ifndef FUNCIONE_H_
+#define FUNCIONE_H_
+#include <stdio.h>
+#endif /* FUNCIONE_H_ */
+/// @brief
+///
+/// @pre
+/// @post
+/// @param precio
+/// @return
+float credito(float precio);
+
+/// @brief
+///
+/// @pre
+/// @post
+/// @param precio
+/// @return
+float debito(float precio);
+
+/// @brief
+///
+/// @pre
+/// @post
+/// @param precio
+/// @return
+float bitcoin(float precio);
+/**
+ * @brief
+ *
+ * @pre
+ * @post
+ * @param precio
+ * @param km
+ * @return
+ */
+float precioUnitario(float precio,int km);
+
+/// @brief
+///
+/// @pre
+/// @post
+/// @param latam
+/// @param aerolineas
+/// @return
+float diferencia(float latam, float aerolineas);
+
+
+

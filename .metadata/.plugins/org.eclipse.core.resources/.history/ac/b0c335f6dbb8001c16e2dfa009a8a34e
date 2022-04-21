@@ -1,0 +1,20 @@
+/*
+ * funcione.h
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: fatim
+ */
+
+#ifndef FUNCIONE_H_
+#define FUNCIONE_H_
+float  descuentoLatam(int latam);
+float interesesLatam(int latam);
+float bitcoinLatam(int latam);
+float porkmLatam(int latam,int km);
+float descuentoaerolineas(int aerolineas);
+float interesesAerolineas(int aerolineas);
+int bitcoinAerolineas(int aerolineas);
+float porKmAerolineas(int aerolineas,int km);
+float diferencia(int latam, int aerolineas);
+#endif /* FUNCIONE_H_ */
+

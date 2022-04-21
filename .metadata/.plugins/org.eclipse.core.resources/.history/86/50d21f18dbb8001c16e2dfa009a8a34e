@@ -1,0 +1,31 @@
+/*
+ * funcioneDos.c
+ *
+ *  Created on: 9 abr. 2022
+ *      Author: fatim
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include "funcione.h"
+int funcionDos(float latam,float aerolineas,int km,float descuentoLatam,float interesesLatam,float bitcoinLatam,float porKmLatam,float descuentoAerolineas,float interesesAerolineas,float bitcoinAerolineas,float porKmAerolineas,float diferencia)
+{
+
+
+	printf("KMs Ingresados: %d km\n", km);
+
+	printf("\nPrecio Aerolinias: $ %.2f",aerolineas);
+	printf("\na) Precio con tarjeta de debito: $ %.2f",descuentoAerolineas);
+	printf("\nb) Precio con tarjeta de credito: $ %.2f",interesesAerolineas);
+	printf("\nc) Precio pagando con bitcoin: $ %.2f",bitcoinAerolineas);
+	printf("\nd) Mostrar precio unitario: $ %.2f\n",porKmAerolineas);
+
+	printf("\nPrecio Latam: $ %.2f",latam);
+	printf("\na) Precio con tarjeta de debito: $ %.2f",descuentoLatam);
+	printf("\nb) Precio con tarjeta de credito: $ %.2f",interesesLatam);
+	printf("\nc) Precio pagando con bitcoin: $ %.2f",bitcoinLatam);
+	printf("\nd) Mostrar precio unitario: $ %.2f",porKmLatam);
+
+	printf("\n\nLa diferencia de precio es: $ %.2f",diferencia);
+
+	return 0;
+}

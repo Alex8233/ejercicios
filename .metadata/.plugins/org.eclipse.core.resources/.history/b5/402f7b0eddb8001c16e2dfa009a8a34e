@@ -1,0 +1,94 @@
+/*
+ * funcione.c
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: fatim
+ */
+#include <stdio.h>
+#include <stdlib.h>
+float descuentoLatam(float latam)
+{
+
+	float latamDos;
+	latamDos =(float) latam * 10 / 100;
+	latamDos = latam - latamDos;
+
+
+
+	return latamDos;
+}
+float descuentoaerolineas(float aerolineas)
+{
+	float aerolineasDos;
+	aerolineasDos = (float)aerolineas * 10 / 100;
+	aerolineasDos = aerolineas - aerolineasDos;
+
+	return aerolineasDos;
+}
+
+float interesesLatam(float latam)
+{
+
+	float latamTres;
+	latamTres = (float)latam * 25 / 100;
+	latamTres = latam + latamTres;
+
+	return latamTres;
+}
+float interesesAerolineas(float aerolineas)
+{
+	float aerolineasTres;
+	aerolineasTres = (float)aerolineas * 25 / 100;
+	aerolineasTres = aerolineas + aerolineasTres;
+
+	return aerolineasTres;
+}
+float bitcoinLatam(float latam)
+{
+
+	float latamCuatro;
+	latamCuatro = latam / 4606954.55;
+	return latamCuatro;
+//	bitcoin: 0.0354
+//	bitcoin: 0.0346
+}
+float bitcoinAerolineas(float aerolineas)
+{
+	float aerolineasCuatro;
+	aerolineasCuatro = aerolineas / 4606954.55;
+
+	return aerolineasCuatro;
+}
+float porKmLatam(float latam, int km)
+{
+
+	float latamCinco;
+
+	latamCinco = (float)latam / km;
+
+	return latamCinco;
+}
+float porKmAerolineas(float aerolineas, int km)
+{
+	float aerolineasCinco;
+	aerolineasCinco =(float)aerolineas / km;
+
+	return aerolineasCinco;
+}
+float diferencia(float latam, float aerolineas)
+{
+	float diferencia;
+	if(latam > aerolineas)
+	{
+		diferencia = latam - aerolineas;
+	}
+	else
+	{
+		diferencia = aerolineas - latam;
+	}
+
+	return diferencia;
+}
+
+
+

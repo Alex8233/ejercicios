@@ -1,0 +1,13 @@
+/*
+ * funcione.h
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: fatim
+ */
+
+#ifndef FUNCIONE_H_
+#define FUNCIONE_H_
+float  descuento(int latam,int aerolineas);
+int intereses(int latam, int aerolineas);
+#endif /* FUNCIONE_H_ */
+

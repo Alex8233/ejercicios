@@ -1,0 +1,14 @@
+/*
+ * funcioneDos.h
+ *
+ *  Created on: 9 abr. 2022
+ *      Author: fatim
+ */
+
+#ifndef FUNCIONEDOS_H_
+#define FUNCIONEDOS_H_
+
+
+int funcionDos(float latam,float aerolineas,int km,float descuentoLatam,float interesesLatam,float bitcoinLatam,float porKmLatam,float descuentoAerolineas,float interesesAerolineas,float bitcoinAerolineas,float porKmAerolineas,float diferencia);
+
+#endif /* FUNCIONEDOS_H_ */

@@ -1,0 +1,79 @@
+/*
+ * funcione.c
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: fatim
+ */
+#include <stdio.h>
+#include <stdlib.h>
+float descuento(int latam,int aerolineas)
+{
+
+	float latamDos;
+	float aerolineasDos;
+
+//	Tarjeta de débito (descuento 10%)
+//b) Tarjeta de crédito (interés 25%)
+//c) Bitcoin (1BTC -> 4606954.55 Pesos Argentinos)
+//d) Mostrar precio por km (precio unitario)
+//e) Mostrar diferencia de precio ingresada (Latam - Aerolíneas)
+	latamDos =(float) latam * 10 / 100;
+	latamDos = latam - latamDos;
+
+	printf("\ndescuento: %.2f",latamDos);
+	aerolineasDos = (float)aerolineas * 10 / 100;
+	aerolineasDos = aerolineas - aerolineasDos;
+	printf("\ndescuento: %.2f",aerolineasDos);
+	return 0;
+}
+int intereses(int latam, int aerolineas)
+{
+	float aerolineasTres;
+	float latamTres;
+	latamTres = (float)latam * 25 / 100;
+	latamTres = latam + latamTres;
+	printf("\nintereces: %.2f",latamTres);
+	aerolineasTres = (float)aerolineas * 25 / 100;
+	aerolineasTres = aerolineas + aerolineasTres;
+	printf("\nintereces: %.2f",aerolineasTres);
+	return 0;
+}
+int bitcoin(int latam,int aerolineas)
+{
+	float aerolineasCuatro;
+	float latamCuatro;
+	latamCuatro = latam / 4606954.55;
+	printf("\nbitcoin: %.4f",latamCuatro);
+	aerolineasCuatro = aerolineas / 4606954.55;
+	printf("\nbitcoin: %.4f",aerolineasCuatro);
+	return 0;
+//	bitcoin: 0.0354
+//	bitcoin: 0.0346
+}
+int porkm(int latam,int aerolineas, int km)
+{
+	float aerolineasCinco;
+	float latamCinco;
+	aerolineasCinco =(float)aerolineas / km;
+	printf("\nprecio por km en aerolineas: %.3f",aerolineasCinco);
+	latamCinco = (float)latam / km;
+	printf("\nprecio por km en latam: %.3f",latamCinco);
+	return 0;
+}
+int diferencia(int latam, int aerolineas)
+{
+	int diferencia;
+	if(latam > aerolineas)
+	{
+		diferencia = latam - aerolineas;
+	}
+	else
+	{
+		diferencia = aerolineas - latam;
+	}
+	printf("\ndiferencia de precio de latam y aerolineas: %d",diferencia);
+	return 0;
+}
+
+
+

@@ -1,0 +1,7 @@
+14:49:02 **** Rebuild of configuration Debug for project sabados.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sabados.1.o" "..\\src\\sabados.1.c" 
+gcc -o sabados.1.exe "src\\sabados.1.o" 
+
+14:49:02 Build Finished. 0 errors, 0 warnings. (took 910ms)
+

@@ -1,0 +1,11 @@
+23:44:15 **** Rebuild of configuration Debug for project comoEstam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\src\\tp_laboratorio.o" "..\\src\\src\\tp_laboratorio.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\.metadata\\.plugins\\org.eclipse.cdt.managedbuilder.core\\spec.o" "..\\src\\.metadata\\.plugins\\org.eclipse.cdt.managedbuilder.core\\spec.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\src\\funcione.o" "..\\src\\src\\funcione.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "..\\src\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\src\\datos.o" "..\\src\\src\\datos.c" 
+gcc -o comoEstam.exe "src\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "src\\.metadata\\.plugins\\org.eclipse.cdt.managedbuilder.core\\spec.o" "src\\src\\datos.o" "src\\src\\funcione.o" "src\\src\\tp_laboratorio.o" 
+
+23:44:17 Build Finished. 0 errors, 0 warnings. (took 2s.0ms)
+

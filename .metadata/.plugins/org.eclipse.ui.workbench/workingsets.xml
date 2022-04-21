@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1650074667334_1" label="tp.pruebra" name="tp.pruebra">
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/tp_laboratorio" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1650074725731_2" label="tp.prueba.c" name="tp.prueba.c"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1648683770847_0" label="Window Working Set" name="Aggregate for window 1648683770846"/>
+<mruList name="tp.prueba.c"/>
+<mruList name="tp.pruebra"/>
+</workingSetManager>

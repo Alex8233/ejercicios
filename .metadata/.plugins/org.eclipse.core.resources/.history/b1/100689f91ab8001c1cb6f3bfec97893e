@@ -1,0 +1,24 @@
+/*
+ * funcione.c
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: fatim
+ */
+#include <stdio.h>
+#include <stdlib.h>
+float precio(int latam)
+{
+
+	int latamDos;
+	int descuento;
+//	Tarjeta de débito (descuento 10%)
+//b) Tarjeta de crédito (interés 25%)
+//c) Bitcoin (1BTC -> 4606954.55 Pesos Argentinos)
+//d) Mostrar precio por km (precio unitario)
+//e) Mostrar diferencia de precio ingresada (Latam - Aerolíneas)
+	latamDos =((float) latam * 10) / 100;
+	descuento = latam - latamDos;
+
+	printf("descuento: %f",descuento);
+	return descuento;
+}
